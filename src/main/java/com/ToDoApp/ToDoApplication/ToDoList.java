@@ -17,7 +17,6 @@ public class ToDoList {
     @GetMapping("/toDoList")
 
     public  Map<String, List<String>> toDoTask(){
-        int a = 10;
         List<String> toDoList = new ArrayList<>();
         toDoList.add("WorkOut");
         toDoList.add("Running");
@@ -32,6 +31,10 @@ public class ToDoList {
             put("InProgress", inProgressList);
             put("Done", doneTask);
         }};
+        
+        
+        int a =10;
+       
 
     }
 }
