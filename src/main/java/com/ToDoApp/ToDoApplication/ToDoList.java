@@ -33,16 +33,4 @@ public class ToDoList {
         }};
 
     }
-
-
-    public void SOMETHIGNMTHOD(){
-            while(true){
-                System.out.println("hello Summa");
-            }
-
-    }
-
-
-
-
 }
