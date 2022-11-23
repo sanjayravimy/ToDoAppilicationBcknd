@@ -26,6 +26,7 @@ public class ToDoList {
         inProgressList.add("CurrentTask");
         List<String> doneTask = new ArrayList<>();
         doneTask.add("BreakFast");
+        int a =10;
         return new HashMap<String, List<String>>(){{
             put("ToDo", toDoList);
             put("InProgress", inProgressList);
@@ -33,7 +34,7 @@ public class ToDoList {
         }};
         
         
-        int a =10;
+
        
 
     }
