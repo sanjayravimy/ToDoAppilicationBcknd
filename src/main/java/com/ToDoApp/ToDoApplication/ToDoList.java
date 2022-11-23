@@ -35,9 +35,4 @@ public class ToDoList {
 
     }
 
-    public void SOMETHING(){
-        while(true){
-            System.out.println("Hello");
-        }
-    }
 }
