@@ -1,0 +1,5 @@
+applications:
+  -   name: ToDoApp
+      path: target/ToDoApplication-0.0.1-SNAPSHOT.jar
+      buildpacks:
+        - java_buildpack
