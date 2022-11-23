@@ -18,6 +18,7 @@ public class ToDoList {
     public  Map<String, List<String>> toDoTask(){
         List<String> toDoList = new ArrayList<>();
         toDoList.add("WorkOut");
+        toDoList.add("Running");
         toDoList.add("Exercise");
         List<String> inProgressList = new ArrayList<>();
         inProgressList.add("Working");
