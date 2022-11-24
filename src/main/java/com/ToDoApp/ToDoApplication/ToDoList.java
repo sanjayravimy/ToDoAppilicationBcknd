@@ -13,7 +13,7 @@ import java.util.SortedMap;
 
 public class ToDoList {
 
-    @CrossOrigin("http://localhost:5000/")
+    @CrossOrigin("https://todoappng-patient-quokka-sz.cfapps.us10-001.hana.ondemand.com/")
     @GetMapping("/toDoList")
 
     public  Map<String, List<String>> toDoTask(){
