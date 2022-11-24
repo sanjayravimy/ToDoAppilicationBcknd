@@ -8,24 +8,30 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.SortedMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @RestController
 
 public class ToDoList {
+    private static final Logger LOGGER = LoggerFactory.getLogger(ToDoList.class);
 
     @CrossOrigin("https://todoappng-patient-quokka-sz.cfapps.us10-001.hana.ondemand.com")
     @GetMapping("/toDoList")
 
     public  Map<String, List<String>> toDoTask(){
+        LOGGER.info("Info log from api");
         List<String> toDoList = new ArrayList<>();
         toDoList.add("WorkOut");
         toDoList.add("Running");
         toDoList.add("Exercise");
+        LOGGER.warn("Warning log from api");
         List<String> inProgressList = new ArrayList<>();
         inProgressList.add("Working");
         inProgressList.add("CurrentTask");
         List<String> doneTask = new ArrayList<>();
         doneTask.add("BreakFast");
+        LOGGER.error("Error log from api");
         return new HashMap<String, List<String>>(){{
             put("ToDo", toDoList);
             put("InProgress", inProgressList);
