@@ -34,7 +34,6 @@ public class ToDoList {
         return new HashMap<String, List<String>>(){{
             put("ToDo", toDoList);
             put("InProgress", inProgressList);
-            put("Done", doneTask);
         }};
 
     }
