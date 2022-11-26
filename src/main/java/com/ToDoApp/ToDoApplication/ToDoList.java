@@ -27,6 +27,7 @@ public class ToDoList {
         List<String> inProgressList = new ArrayList<>();
         inProgressList.add("Working");
         inProgressList.add("CurrentTask");
+        inProgressList.add("newly added task");
         List<String> doneTask = new ArrayList<>();
         doneTask.add("BreakFast");
         LOGGER.error("Error log from api");
