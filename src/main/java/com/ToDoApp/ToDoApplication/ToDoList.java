@@ -22,7 +22,7 @@ public class ToDoList {
     public  Map<String, List<String>> toDoTask(){
         LOGGER.info("Info log from api");
         List<String> toDoList = new ArrayList<>();
-        toDoList.add("WorkOut-workout");
+        toDoList.add("NOthing to do");
         toDoList.add("Running");
         List<String> inProgressList = new ArrayList<>();
         inProgressList.add("Working");
