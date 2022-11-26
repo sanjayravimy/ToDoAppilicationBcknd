@@ -32,7 +32,7 @@ public class ToDoList {
         doneTask.add("BreakFast");
         LOGGER.error("Error log from api");
         return new HashMap<String, List<String>>(){{
-            put("ToDo", toDoList);
+            put("ToDo", toDoList); 
             put("InProgress", inProgressList);
         }};
 
