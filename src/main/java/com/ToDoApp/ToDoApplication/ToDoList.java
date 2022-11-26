@@ -24,7 +24,6 @@ public class ToDoList {
         List<String> toDoList = new ArrayList<>();
         toDoList.add("WorkOut");
         toDoList.add("Running");
-        toDoList.add("Exercise1");
         List<String> inProgressList = new ArrayList<>();
         inProgressList.add("Working");
         inProgressList.add("CurrentTask");
